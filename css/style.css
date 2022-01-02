@@ -13,7 +13,92 @@
   --white: hsl(0, 0%, 100%);
   --global-font-size: 18px;
 }
+
+html {
+  font-size: 62.5%;
+  /* root font size=10px */
+}
+
 body {
   font-family: 'Outfit', sans-serif;
   font-size: var(--global-font-size);
+  background-color: var(--main-bg-color);
+  color: var(--white);
+  padding: 5rem 0;
+}
+.nft-card-container {
+  margin: 0 auto;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  background-color: var(--card-bg-color);
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 25%;
+}
+.nft-card-container .image #nft-image {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+.nft-card-container #nft-title {
+  margin-bottom: 1.5rem;
+}
+.nft-card-container .description .buy-info,
+.nft-card-container .created-by {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nft-card-container .created-by {
+  justify-content: flex-start;
+}
+
+.nft-card-container .description #nft-about,
+.nft-card-container .buy-info,
+#section-line {
+  margin-bottom: 1.5rem;
+}
+.buy-info {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.buy-info img {
+  vertical-align: middle;
+  height: 2.1rem;
+  margin-right: 0.5rem;
+}
+.buy-info #price {
+  color: var(--cyan);
+  font-weight: 600;
+}
+.buy-info #days-left {
+  color: var(--soft-blue);
+}
+
+.nft-card-container .description #nft-about {
+  font-weight: 400;
+  color: var(--soft-blue);
+}
+.created-by #creator-avatar {
+  width: 10%;
+  margin-right: 2rem;
+  border: 2px solid var(--white);
+  border-radius: 50%;
+}
+.created-by {
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.created-by #creation-of {
+  color: var(--soft-blue);
+}
+#section-line {
+  border: 1px solid var(--line-color);
+  width: 100%;
 }
