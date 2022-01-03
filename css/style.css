@@ -101,7 +101,7 @@ body {
   color: var(--soft-blue);
 }
 #section-line {
-  border: 1px solid var(--line-color);
+  border: 0.5px solid var(--line-color);
   width: 100%;
 }
 .created-by #creator-info {
