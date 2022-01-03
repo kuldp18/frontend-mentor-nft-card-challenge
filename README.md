@@ -37,7 +37,7 @@ Final version on smaller devices:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Linked Frontend Mentor Challenge Solution](https://www.frontendmentor.io/solutions/implemented-responsive-design-using-less-code-in-media-queries-sH_b_4gMu)
 - Live Site URL: [Deployed on Netlify: NFT Preview Card Component](https://nft-card-component-kuldp18.netlify.app)
 
 ## My process
