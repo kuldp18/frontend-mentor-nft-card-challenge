@@ -34,7 +34,7 @@ body {
   padding: 2.5rem;
   border-radius: 1rem;
   background-color: var(--card-bg-color);
-  height: 100vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -194,4 +194,23 @@ body {
   html {
     font-size: 62.5%;
   }
+}
+/* footer */
+footer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: var(--white);
+}
+
+.attribution {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 1.2rem 0;
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--cyan);
+  font-weight: 400;
 }
